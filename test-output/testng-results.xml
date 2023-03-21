@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-20T23:26:53 IST" name="admin" finished-at="2023-03-20T23:27:11 IST" duration-ms="18343">
+    <groups>
+    </groups>
+    <test started-at="2023-03-20T23:26:53 IST" name="admin" finished-at="2023-03-20T23:27:11 IST" duration-ms="18343">
+      <class name="com.admin.testcases.HI_lead_Movement">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.admin.testcases.HI_lead_Movement@618b19ad]" started-at="2023-03-20T23:26:53 IST" name="setUp" finished-at="2023-03-20T23:26:58 IST" duration-ms="4770" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC_Lead_movement()[pri:0, instance:com.admin.testcases.HI_lead_Movement@618b19ad]" started-at="2023-03-20T23:26:58 IST" name="TC_Lead_movement" finished-at="2023-03-20T23:27:11 IST" duration-ms="13523" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_Lead_movement -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.admin.testcases.HI_lead_Movement@618b19ad]" started-at="2023-03-20T23:27:11 IST" name="tearDown" finished-at="2023-03-20T23:27:11 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.admin.testcases.HI_lead_Movement -->
+    </test> <!-- admin -->
+  </suite> <!-- admin -->
+</testng-results>

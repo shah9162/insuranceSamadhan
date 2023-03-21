@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+	<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtc">
+<suite name="admin">
+	
+    	<listeners>   
+ 		<listeners class-name = "com.admin.utilities.Reporting"/>   
+ 	</listeners>  
+	
+
+	<test name="admin">
+<parameter name="browser" value="chrome" />
+
+<classes>
+                  
+
+        <!--   <class name="com.admin.testcases.LoginTest_001" />   --> 
+           
+              <class name="com.admin.testcases.HI_lead_Movement" /> 
+        
+     
+
+            
+</classes>
+
+</test>
+
+</suite>
